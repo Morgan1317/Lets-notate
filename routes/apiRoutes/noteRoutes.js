@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const createNewNote = require('../../lib/notes');
+const {createNewNote, deleteNote } = require('../../lib/notes');
 const fs = require('fs');
 
 
@@ -14,18 +14,20 @@ router.get('/notes',(req,res) => {
           res.json(notesArray);
         };
     });
-    // Log request to terminal 
-    console.info(`${req.method} request recieved to get notes`)
+
 })
 
+// uses the create note function and puts it on the page. 
 router.post('/notes', (req, res) => {
-    console.info(`${req.method} request recieved to add/save notes`);
-
-    createNewNote(req.body);
     
-    res.json();
+    res.json(createNewNote(req.body));
     
 });
+
+// delete based on unique ids created
+router.delete(`/notes/:id`, (req,res) => {
+    res.json(deleteNote(req.params.id))
+})
 
 
 module.exports = router; 
