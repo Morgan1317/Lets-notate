@@ -12,12 +12,7 @@
   
   * [Usage](#usage)
 
-  
-
-  * [Contributing](#contributing)
-
-  * [Screencapture of deployed pages](#Screencapture of deployed pages)
-
+  * [Screencapture of deployed pages](#screencapture)
   * [Questions](#questions)
 
   ## Installation
