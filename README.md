@@ -16,7 +16,7 @@
 
   * [Contributing](#contributing)
 
-  * [Screencapture of deployed pages](#screencapture)
+  * [Screencapture of deployed pages](#Screencapture of deployed pages)
 
   * [Questions](#questions)
 
