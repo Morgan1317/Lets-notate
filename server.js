@@ -11,11 +11,10 @@ app.use(express.urlencoded({extended:true}));
 // parse incoming JSON data
 app.use(express.json());
 // so our code knows to use the public folder content that contains the css and js files that go with the html
-// makes the files static resources so front-end code can be accessed without having a specific server enpont created for it
-// this middleware creates virtual path, middlewhere function in this case is express.static
+// makes the files static resources so front-end code can be accessed without having a specific server endpont created for it
 app.use(express.static('public'))
 
-// Use Api Routes
+// Use Api Routes, and htmlRoutes
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
