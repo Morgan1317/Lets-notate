@@ -12,7 +12,7 @@
   
   * [Usage](#usage)
 
-  * [Screencapture of deployed pages](#screencapture)
+  * [Screencaptures](#screencapture)
   * [Questions](#questions)
 
   ## Installation
@@ -30,7 +30,7 @@
   Click <a href="https://stark-bastion-38855.herokuapp.com/" target="_blank" rel="noreferrer noopener">here</a> to see the deployed version of Lets Notate. 
 
 
-  ## Screencapture of deployed pages
+  ## Screencapture
 
   This is the page the user comes to upon page load, or any broken link instance. 
   
