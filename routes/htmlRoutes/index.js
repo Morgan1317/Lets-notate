@@ -13,7 +13,7 @@ router.get('/notes', (req, res) => {
 
 // wildcard route, incase req is made for route that doesn't exist
 router.get('*',(req,res)=>{
-    res.sendFile(path.join(__dirname, './public/index.html'));
+    res.sendFile(path.join(__dirname, '../../public/index.html'));
 });
 
 module.exports = router; 
